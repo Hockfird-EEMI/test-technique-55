@@ -1,0 +1,97 @@
+body {
+  width:100%;
+  height:100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial;
+}
+
+.title {
+  text-align: center;
+  border: 2px solid #3498DB;
+  padding: 10px 40px; 
+  background: #dddddd;
+  width: 300px;
+  border-radius: 25px;
+  text-transform: capitalize;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 1%
+}
+
+
+/*GRAPH*/
+
+#wrapper {
+  width:200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#graph{
+  width:1660px;
+  height:120px;
+  margin-top: 20%;
+  padding:0;  
+  margin-left: auto;
+  margin-right: auto;    
+}
+
+#graph ul
+{
+  position:absolute;
+  top:25%;
+  left:32px;
+  width:3000px;
+  height:550px;
+  border-left:1px solid black;
+  border-bottom:1px solid black;  
+  zoom: 50%;
+  max-width: 100%;
+  margin-left: auto;
+}
+
+#graph li
+{
+  position:absolute; 
+  list-style:none;
+  background:lightblue;
+  width:40px;
+  text-align:center;
+  border:1px solid black;
+  visibility: hidden;
+  margin-left: auto;
+  margin-right: auto;   
+}
+
+
+/*LABELS*/
+
+.contain {
+  padding-left: 2%;
+  width: 3000px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+#labels span{
+  font-size: 12px;
+  text-orientation: sideways;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+
+/*BUBBLEINFO*/
+
+#bubbleinfo {
+    text-align: center;
+    border: 2px solid #1abc9c;
+    padding: 10px 40px; 
+    background: #dddddd;
+    width: 300px;
+    border-radius: 25px;
+    text-transform: capitalize;
+    margin-left: auto;
+    margin-right: auto;
+  }

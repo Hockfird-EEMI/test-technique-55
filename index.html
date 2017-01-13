@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Playing Platform</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<div class="wrapper">
+
+	<div class="title">Online Playing Platform <br>
+	John and Larry's scores overtime</div>
+
+
+
+	<div id="graph">
+	<ul class="iddeul">
+
+	</ul>
+	</div>
+	<div class="contain">
+		<div id="labels"></div>
+	</div>
+
+</div>
+
+
+​<div id="bubbleinfo">Click on Bar to get info !</div>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>	
+	<script src="sketch.js"></script>
+
+	<script>
+		function infos(i) {
+		    document.getElementById(i).style.visibility='visible';  
+		}
+
+		$(document).on("click", ".elem", function(){
+
+			$("#bubbleinfo").text($(this).data("info"));
+		});
+	</script>
+
+</body>
+</html>
